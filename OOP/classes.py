@@ -10,3 +10,18 @@ class Car:
 
     def present_yourself(self):
         print("I am a", self.color, self.car_brand, "my top speed is", self.maxspeed)
+
+
+class LivretA:
+    taux = 0.5
+
+    def __init__(self, name, balance):
+        self.firstname = name
+        self.balance = balance
+
+
+class Banque:
+    def __init__(self, name, saving_accounts):
+        self.brand = name
+        self.accounts = saving_accounts
+
